@@ -34,9 +34,6 @@ html, body {
 
 }
 
-.hidden:hover {
-    color: rgba(154, 10, 53, 5)
-}
 
 .one {
     color: blue;
@@ -60,6 +57,11 @@ html, body {
     align-items: center;
 }
 
-
+span{
+    opacity: 0.0;
+}
+span:hover{
+    opacity: 1.0;
+}
 
   
